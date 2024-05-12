@@ -66,7 +66,7 @@ source ~/ros2_ws/install/setup.bash
 ```
 cd ~/ros2_ws
 
-ros2 run ros2_vlm grounded_sam --ros-args -p video_source:=/dev/video0 -p segment:=True -p my_list:="["spectacles", "person", "hair"]"
+ros2 run ros2_vlm grounded_sam --ros-args -p video_source:=/dev/video2 -p isSegment:=False -p detectionList:="["spectacles", "person", "hair"]"
 ```
 
 ## Resources
