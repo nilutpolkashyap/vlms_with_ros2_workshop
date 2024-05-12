@@ -46,9 +46,9 @@ python3 download_weights.py
 
 ## Download OpenVINO IR models from Google Drive
 
-Download the zip file from here [link here]()
+Download the zip file from here [link here](https://drive.google.com/file/d/1bwEZ_kK3ePcYiRJPcbzWz4CRnf1U9hH8/view?usp=sharing)
 
-Place the contents of the zip file inside the **'openvino_irs'** directory in following path
+Place the contents of the zip file inside the **'openvino_irs'** directory in the following path
 
 ```
 ~/ros2_ws/src/vlms_with_ros2_workshop/ros2_vlm/ros2_vlm/modules/openvino_irs
@@ -66,7 +66,7 @@ source ~/ros2_ws/install/setup.bash
 ```
 cd ~/ros2_ws
 
-ros2 run ros2_vlm grounded_sam --ros-args -p video_source:=/dev/video2 -p isSegment:=False -p detectionList:="["spectacles", "person", "hair"]"
+ros2 run ros2_vlm grounded_sam --ros-args -p video_source:=/dev/video2 -p isSegment:=False -p detectionList:="["eyes", "person", "hair"]"
 ```
 
 ## Resources
