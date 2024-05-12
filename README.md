@@ -25,8 +25,9 @@ pip install "openvino>=2024.1" "torch>=2.1" opencv-python supervision transforme
 ```
 
 ## Add your Python virtual environment package path 
+**Make sure to update <<YOUR_USER_NAME>> with your system username.**
 ```
-export PYTHONPATH='~/ros2_ws/vlm-venv/lib/python3.10/site-packages'
+export PYTHONPATH='/home/<<YOUR_USER_NAME>>/ros2_ws/vlm-venv/lib/python3.10/site-packages'
 ```
 
 ## Clone this repository inside the 'src' folder of your workspace
@@ -65,11 +66,11 @@ source ~/ros2_ws/install/setup.bash
 ```
 cd ~/ros2_ws
 
-ros2 run ros2_opencv_python grounded_sam --ros-args -p video_source:=/dev/video0 -p segment:=True -p my_list:="["spectacles", "person", "hair"]"
+ros2 run ros2_vlm grounded_sam --ros-args -p video_source:=/dev/video0 -p segment:=True -p my_list:="["spectacles", "person", "hair"]"
 ```
 
 ## Resources
 - [Using Python Packages with ROS 2](https://docs.ros.org/en/humble/How-To-Guides/Using-Python-Packages.html)
 - [How to use (python) virtual environments with ROS2?
 ](https://answers.ros.org/question/371083/how-to-use-python-virtual-environments-with-ros2/)
-- 
+- [grounded-segment-anything.ipynb](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/grounded-segment-anything/grounded-segment-anything.ipynb)
