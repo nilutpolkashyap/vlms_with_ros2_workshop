@@ -36,7 +36,7 @@ cd ~/ros2_ws/src
 git clone https://github.com/nilutpolkashyap/vlms_with_ros2_workshop.git
 ```
 
-## Download weights
+## Download weights and required packages
 ```
 cd ~/ros2_ws/src/vlms_with_ros2_workshop
 
