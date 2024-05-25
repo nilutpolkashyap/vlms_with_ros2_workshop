@@ -59,7 +59,7 @@ python3 download_weights.py
 
 ### Download OpenVINO IR models from Google Drive
 
-Download the zip file from here [link here](https://drive.google.com/file/d/1bwEZ_kK3ePcYiRJPcbzWz4CRnf1U9hH8/view?usp=sharing)
+Download the zip file from the Google Drive [link here](https://drive.google.com/file/d/1yCpUEWr3KR76uVWgtHNreIdlYh59z0dS/view?usp=sharing)
 
 Place the contents of the zip file inside the **'openvino_irs'** directory in the following path
 
